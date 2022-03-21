@@ -1,0 +1,14 @@
+.btn-me,
+.btn-nome {
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+}
+
+.btn-me {
+    color: white;
+    background-color: black;
+}
+
+.btn-nome {
+    background-color: yellow;
+}
