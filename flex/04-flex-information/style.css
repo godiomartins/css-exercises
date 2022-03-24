@@ -24,23 +24,3 @@ img {
   justify-content: center;
   background: #eee;
 }
-
-/* My Solution */
-
-.wrapper {
-  display: flex;
-  flex-flow: column wrap;
-  align-items: center;
-}
-
-.items {
-  width: 200px;
-  margin-top: 32px;
-}
-
-.collection  {
-  display:flex;
-  align-items: center;
-  gap: 52px;
-  text-align: center;
-}
