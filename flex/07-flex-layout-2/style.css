@@ -5,13 +5,11 @@ body {
 }
 
 .header {
-  height: 72px;
   background: darkmagenta;
   color: white;
 }
 
 .footer {
-  height: 72px;
   background: #eee;
   color: darkmagenta;
 }
@@ -25,4 +23,64 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+/* Solução */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  padding: 16px;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 24px;
+  margin-bottom: 16px;
+
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.collection {
+  display: flex;
+  padding: 32px;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.card {
+  width: 300px;
+  padding: 16px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
 }
